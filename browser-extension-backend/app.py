@@ -9,7 +9,7 @@ import json
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = ""
 MODEL_ID = "mistralai/mistral-small-3.1-24b-instruct:free"
 
 def refine_query_with_mistral(product_title):
